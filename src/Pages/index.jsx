@@ -1,11 +1,13 @@
 import React from 'react';
+import Navbar from '../Components/Navbar/navbar';
 
 const MainPage = () =>{
 
     return (
         <div>
-            <h3>Index</h3>
-            <small>main page</small>
+            <Navbar />
+            {/* <h3>Index</h3>
+            <small>mainssssssssssscccss page</small> */}
         </div>
     );
 }
