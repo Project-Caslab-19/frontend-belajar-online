@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 import { Button } from 'react-bootstrap';
 // import axios from 'axios'
@@ -12,13 +12,23 @@ import { Button } from 'react-bootstrap';
 //     'Authorization': `token ${access_token}`
 //   }
 // })
+import{ 
+  BrowserRouter as Router,
+  Route, 
+  Switch, 
+  Link, 
+  Redirect 
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div>
-      <Button>Test</Button>
-    </div>
-  );
+//Pages
+import MainPage from "./Pages";
+ 
+class App extends Component{
+  render(){
+      return <Router>
+        <Route path="/" component={ MainPage } />
+      </Router>;
+  }
 }
 
 export default App;
