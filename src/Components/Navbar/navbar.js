@@ -13,8 +13,6 @@ function Navbar() {
                 <div className='navbar-container'>
                     <div className="judul">   CASLAB19</div>
 
-
-
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
