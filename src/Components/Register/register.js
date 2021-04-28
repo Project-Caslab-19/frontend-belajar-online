@@ -12,7 +12,6 @@ function Register() {
       <button className= {"button"} onClick={handleShow} >
           Register
           </button>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Ini Buat register</Modal.Title>
