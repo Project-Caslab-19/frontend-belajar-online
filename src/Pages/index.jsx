@@ -9,8 +9,6 @@ const MainPage = () =>{
         <div>
             <Navbar />
             <Hero />
-            {/* <h3>Index</h3>
-            <small>mainssssssssssscccss page</small> */}
             <Footer/>
         </div>
         
