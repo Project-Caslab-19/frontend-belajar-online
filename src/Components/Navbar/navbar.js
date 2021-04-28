@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './navbar.css';
-import  Register  from '../Register/register';
-import  Login  from '../Login/login';
+import Register from '../Register/register';
+import Login from '../Login/login';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -16,15 +15,15 @@ function Navbar() {
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li >
-                        <Login/>
+                            <Login />
                         </li>
                         <li className='nav-item'>
-                        <Register/>
+                            <Register />
                         </li>
 
                     </ul>
                     {/* {button && <Button buttonStyle='btn--outline'>Daftar</Button>} */}
-                    
+
                 </div>
             </nav>
         </>

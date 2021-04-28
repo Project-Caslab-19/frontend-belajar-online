@@ -1,15 +1,18 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/navbar';
+import Section1 from '../Components/Section1/Section1';
+import Section2 from '../Components/Section2/Section2';
 
-const MainPage = () =>{
+const MainPage = () => {
 
     return (
         <div>
             <Navbar />
-            {/* <h3>Index</h3>
-            <small>mainssssssssssscccss page</small> */}
+            <Section1 />
+
+
         </div>
     );
 }
 
-export default MainPage; 
+export default MainPage;
