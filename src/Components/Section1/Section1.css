@@ -1,22 +1,25 @@
-.container{
+.ctn-section1{
     width: 100%;
     height: 80vh;
     background: white;
     padding-top: 50px;
 }
-.container h1{
+.ctn-section1 h1{
     font-size: 36px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 780px;
 }
-.container h2{
+.ctn-section1 h2{
     font-size: 16px;
     color: #484848;
     margin-left: 780px;
     font-weight: lighter;
 }
 .gambarsection1{
+    margin-left: 100px;
+    width: 770px;
+    height: 520px;
     position: absolute;
     margin-top: 50px;
 }
