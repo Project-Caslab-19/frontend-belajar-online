@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -9,7 +8,7 @@ import { ReactComponent as LoginImg } from './login.svg';
 import './button.css';
 
 
-function MyVerticallyCenteredModal(props) {
+function LoginModal(props) {
   return (
     <Modal
       {...props}
@@ -25,7 +24,7 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <Container>
           <Row>
-            <Col className="wrapper-form" >
+            <Col className="wrapper-form-login" >
               <div >
                 <form >
                   <div className="form-group">
@@ -61,7 +60,7 @@ function Login() {
       <a className={'btn'} onClick={() => setModalShow(true)} >
         Masuk
       </a>
-      <MyVerticallyCenteredModal
+      <LoginModal
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
