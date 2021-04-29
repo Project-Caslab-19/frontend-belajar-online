@@ -7,7 +7,6 @@ import { ReactComponent as Section1img } from './section1.svg';
 
 function Section1() {
     return (
-        <div className="section1">
         <Container className="ctn-hero">
                 <Row>
                 <Col sm>
@@ -22,8 +21,6 @@ function Section1() {
                     </Col>
                 </Row>
             </Container>
-            
-        </div>
     )
 }
 
