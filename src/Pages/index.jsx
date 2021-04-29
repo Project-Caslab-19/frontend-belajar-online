@@ -12,6 +12,7 @@ const MainPage = () => {
             <NavigationBar />
             <Hero />
             <Section1 />
+            <Section2 />
             <Footer />
         </div>
 
