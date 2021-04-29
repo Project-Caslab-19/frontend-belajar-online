@@ -28,7 +28,7 @@ function Section2() {
                                 <CardTitle tag="h5">Data Sceince</CardTitle>
 
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-                                <Button>Button</Button>
+                                <Button>Lihat</Button>
                             </CardBody>
                         </Card>
                         <Card className="card">
@@ -37,7 +37,7 @@ function Section2() {
                                 <CardTitle tag="h5">RPL</CardTitle>
 
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-                                <Button>Button</Button>
+                                <Button>Lihat</Button>
                             </CardBody>
                         </Card>
                         <Card className="card">
@@ -46,7 +46,7 @@ function Section2() {
                                 <CardTitle tag="h5">Game Cerdas</CardTitle>
 
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-                                <Button>Button</Button>
+                                <Button>Lihat</Button>
                             </CardBody>
                         </Card>
                         <Card className="card">
@@ -55,7 +55,7 @@ function Section2() {
                                 <CardTitle tag="h5">Jaringan</CardTitle>
 
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-                                <Button>Button</Button>
+                                <Button>Lihat</Button>
                             </CardBody>
                         </Card>
 
