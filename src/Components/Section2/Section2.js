@@ -38,8 +38,10 @@ function Section2() {
                                     additional content. This content is a little bit longer.
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer >
-                                <Button variant="primary">Selengkapnya</Button>{' '}
+                            <Card.Footer className="text-center">
+                                <button className={"buttonSelengkapnya"} onClick={''} >
+                                    Selengkapnya
+                                    </button>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -51,8 +53,10 @@ function Section2() {
                                 content.{' '}
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
-                                <Button variant="primary">Selengkapnya</Button>{' '}
+                            <Card.Footer className="text-center">
+                                <button className={"buttonSelengkapnya"} onClick={''} >
+                                    Selengkapnya
+                                    </button>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -65,8 +69,10 @@ function Section2() {
                                     show that equal height action.
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
-                                <Button variant="primary">Selengkapnya</Button>{' '}
+                            <Card.Footer className="text-center">
+                                <button className={"buttonSelengkapnya"} onClick={''} >
+                                    Selengkapnya
+                                    </button>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -79,8 +85,10 @@ function Section2() {
                                     show that equal height action.
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
-                                <Button variant="primary">Selengkapnya</Button>{' '}
+                            <Card.Footer className="text-center">
+                                <button className={"buttonSelengkapnya"} onClick={''} >
+                                    Selengkapnya
+                                    </button>
                             </Card.Footer>
                         </Card>
                     </CardGroup>
