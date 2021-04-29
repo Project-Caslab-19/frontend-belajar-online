@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Components/Navbar/navbar';
+import NavigationBar from '../Components/Navbar/navbar';
 import Section1 from '../Components/Section1/Section1';
 import Section2 from '../Components/Section2/Section2';
 import Footer from '../Components/Footer/footer';
@@ -9,13 +9,8 @@ const MainPage = () => {
 
     return (
         <div>
-            <Navbar />
-
-
-
+            <NavigationBar />
             <Hero />
-            {/* <h3>Index</h3>
-            <small>mainssssssssssscccss page</small> */}
             <Section1 />
             <Footer />
         </div>
