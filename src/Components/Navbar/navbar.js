@@ -1,33 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './navbar.css';
 import Register from '../Register/register';
 import Login from '../Login/login';
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-function Navbar() {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-    const closeMobileMenu = () => setClick(false);
+function NavigationBar() {
     return (
-        <>
-            <nav className='navbar'>
-                <div className='navbar-container'>
-                    <div className="judul">   CASLAB19</div>
+        <Navbar sticky="top">
+            <Navbar.Brand className="judul" href="#home">Lab Academy</Navbar.Brand>
+            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                <Nav.Link>
+                    <Login />
+                </Nav.Link>
+                <Nav.Link>
+                    <Register />
+                </Nav.Link>
+            </Navbar.Collapse>
+        </Navbar>
 
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li >
-                            <Login />
-                        </li>
-                        <li className='nav-item'>
-                            <Register />
-                        </li>
-
-                    </ul>
-                    {/* {button && <Button buttonStyle='btn--outline'>Daftar</Button>} */}
-
-                </div>
-            </nav>
-        </>
     );
 }
 
-export default Navbar;
+export default NavigationBar;
