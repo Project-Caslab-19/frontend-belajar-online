@@ -22,12 +22,12 @@ const Footer = () => {
     <Col sm={2}>
     <Row>
     <Col>
-    <a href="" className="a">
+    <a href="/" className="a">
     <FontAwesomeIcon icon={faInstagram} />
     </a>
     </Col>
     <Col>
-    <a href="" className="a">
+    <a href="/" className="a">
     <FontAwesomeIcon icon={faTwitter} />
     </a>
     </Col>
