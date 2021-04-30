@@ -1,4 +1,5 @@
 import React from 'react'
+import './DetailKategoriKelas.css'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
@@ -11,10 +12,12 @@ function DetailKatergori () {
 
         <Container>
             <Row>
-                <Card>
+                <Card className = 'card'>
                     <Card.Body>
                         <Row>
-                            <Col sm={3}> <div className ='imgKelas'><img  src={img} /></div> </Col>
+                            <Col sm={2.9}> <div className="wrapper">
+                                    <img  src={img} />
+                            </div> </Col>
                             <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
@@ -31,61 +34,10 @@ function DetailKatergori () {
                     </Card.Body>
                 </Card>
 
-                <Card>
+                <Card className = 'card'>
                 <Card.Body>
                         <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
-                                    </button>
-                            </Col>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
-                    </Card.Body>
-                </Card><Card>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
-                                    </button>
-                            </Col>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
-                    </Card.Body>
-                </Card><Card>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
-                                    </button>
-                            </Col>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
-                    </Card.Body>
-                </Card><Card>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
+                            <Col sm={2.9}> <div className ='imgKelas'><img  src={img} /></div> </Col>
                             <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
@@ -100,6 +52,8 @@ function DetailKatergori () {
                         </Row>
                     </Card.Body>
                 </Card>
+
+                
 
                 
                 
