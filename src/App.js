@@ -28,6 +28,7 @@ class App extends Component {
   render() {
     return <Router>
       <Route path="/" exact component={MainPage} />
+      <Route path="/detil-kategori" component={UserPage_kategori} />
       <Route path="/detail-kategori-kelas" component={UserPage_kategori} />
     </Router>;
   }
