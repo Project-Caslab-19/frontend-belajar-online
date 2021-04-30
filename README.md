@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How To Contibute
+[Disini](https://drive.google.com/file/d/1_jX2dKiz1xmQCVEsec0tOq9K4Ays50RZ/view?usp=sharing).
+
 ## Available Scripts
 
 In the project directory, you can run:
