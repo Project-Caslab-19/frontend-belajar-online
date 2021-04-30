@@ -6,6 +6,7 @@ import Footer from '../Components/Footer/footer';
 import Hero from '../Components/Hero/landingpage';
 import DetailKelas from '../Components/KategoriKelas/KategoriKelas'
 
+
 const MainPage = () => {
 
     return (

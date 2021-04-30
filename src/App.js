@@ -21,16 +21,15 @@ import {
 
 //Pages
 import MainPage from "./Pages";
-
-
-import UserPage_kategori from './Pages/detail-kategori';
+import UserPage_kategori from './Pages/detail-kategori-kelas';
 
 
 class App extends Component {
   render() {
     return <Router>
-      <Route path="/" component={MainPage} exact />
+      <Route path="/" exact component={MainPage} />
       <Route path="/detil-kategori" component={UserPage_kategori} />
+      <Route path="/detail-kategori-kelas" component={UserPage_kategori} />
     </Router>;
   }
 }
