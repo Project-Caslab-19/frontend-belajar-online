@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button } from 'react-bootstrap';
 // import axios from 'axios'
 
 // const api = axios.create({
@@ -15,9 +14,9 @@ import { Button } from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Link,
-  Redirect
+  // Switch,
+  // Link,
+  // Redirect
 } from "react-router-dom";
 
 //Pages

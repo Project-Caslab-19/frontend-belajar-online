@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Modal } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import './modal.css';
 import { ReactComponent as LoginImg } from './login.svg';
 import './button.css';
-import Section1 from '../Section1/Section1';
 
 
 function LoginModal(props) {
@@ -58,8 +57,7 @@ function Login() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <a className={'btn'} onClick={(
-      ) => setModalShow(true)} >
+      <a className={'btn'} onClick={() => setModalShow(true)} >
         Masuk
       </a>
       <LoginModal
