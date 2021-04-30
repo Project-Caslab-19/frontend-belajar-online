@@ -15,7 +15,7 @@ function Hero() {
                         <Col sm>
                             <Jumbotron fluid='false'>
                                 <h1>BANGUN KARIRMU SEBAGAI MAHASISWA IT CERDAS</h1>
-                                <p>
+                                <p className ="sec1">
                                     Mulai belajar terarah dengan learning path
                             </p>
                                 <p>
