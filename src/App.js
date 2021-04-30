@@ -12,22 +12,24 @@ import { Button } from 'react-bootstrap';
 //     'Authorization': `token ${access_token}`
 //   }
 // })
-import{ 
+import {
   BrowserRouter as Router,
-  Route, 
-  Switch, 
-  Link, 
-  Redirect 
+  Route,
+  Switch,
+  Link,
+  Redirect
 } from "react-router-dom";
 
 //Pages
 import MainPage from "./Pages";
- 
-class App extends Component{
-  render(){
-      return <Router>
-        <Route path="/" component={ MainPage } />
-      </Router>;
+import UserPage from './Pages/format';
+
+class App extends Component {
+  render() {
+    return <Router>
+      <Route path="/" exact component={MainPage} />
+      <Route path="/" exact component={UserPage} />
+    </Router>;
   }
 }
 
