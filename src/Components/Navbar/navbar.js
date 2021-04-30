@@ -8,8 +8,11 @@ import Nav from 'react-bootstrap/Nav'
 function NavigationBar() {
     return (
         <Navbar sticky="top">
-            <Navbar.Brand className="judul" href="#home">Lab Academy</Navbar.Brand>
+            <Navbar.Brand className="judul" href="/">Lab Academy</Navbar.Brand>
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                <Nav.Link className={'btn'} href="/detil-kategori">
+                   Kelas
+                </Nav.Link>
                 <Nav.Link>
                     <Login />
                 </Nav.Link>
