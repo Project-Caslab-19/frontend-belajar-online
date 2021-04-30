@@ -11,7 +11,7 @@ const UserPage_kategori = () => {
         <div>
             <NavigationBar />
             <KategoriKelas />
-            {/* <Footer /> */}
+            <Footer />
         </div>
 
     );

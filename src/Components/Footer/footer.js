@@ -10,7 +10,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
-    <Container className="ctn-hero">
+    <Container className="ctn-hero" sticky="top">
   <Row>
     <Col sm={10}>
     <Row>

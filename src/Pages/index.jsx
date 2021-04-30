@@ -16,7 +16,6 @@ const MainPage = () => {
             <Section2 />
             <Footer />
         </div>
-
     );
 }
 
