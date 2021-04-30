@@ -6,9 +6,9 @@ const UserPage = () => {
 
     return (
         <div>
-         <KategoriKelas/>
-         <DetailKategoriKelas/>
-         <DetailKelas/>
+            <KategoriKelas />
+            <DetailKategoriKelas />
+            <DetailKelas />
         </div>
 
     );
