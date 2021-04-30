@@ -5,6 +5,7 @@ import Section2 from '../Components/Section2/Section2';
 import Footer from '../Components/Footer/footer';
 import Hero from '../Components/Hero/landingpage';
 
+
 const MainPage = () => {
 
     return (
