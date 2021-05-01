@@ -21,7 +21,8 @@ import {
 
 //Pages
 import MainPage from "./Pages";
-import UserPage_kategori from './Pages/detail-kategori-kelas';
+import UserPage_kategori from './Pages/detail-kategori';
+import UserPage_kategori_kelas from './Pages/detail-kategori-kelas';
 
 
 class App extends Component {
@@ -29,7 +30,7 @@ class App extends Component {
     return <Router>
       <Route path="/" exact component={MainPage} />
       <Route path="/detil-kategori" component={UserPage_kategori} />
-      <Route path="/detail-kategori-kelas" component={UserPage_kategori} />
+      <Route path="/detail-kategori-kelas" component={UserPage_kategori_kelas} />
     </Router>;
   }
 }
