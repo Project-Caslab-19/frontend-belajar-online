@@ -17,14 +17,15 @@ function Hero() {
                                 <h1>BANGUN KARIRMU SEBAGAI MAHASISWA IT CERDAS</h1>
                                 <p className ="sec1">
                                     Mulai belajar terarah dengan learning path
-                            </p>
+                                </p>
                                 <p>
+                                    <a href="/kategori">
                                     <button className={"buttonSelengkapnya"} onClick={''} >
-                                        Selengkapnya 
+                                        Mulai Sekarang 
                                     </button>
+                                    </a>
                                 </p>
                             </Jumbotron>
-
                         </Col>
                         <Col sm>
                             <LandingImg />

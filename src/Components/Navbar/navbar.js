@@ -10,7 +10,7 @@ function NavigationBar() {
         <Navbar sticky="top">
             <Navbar.Brand className="judul" href="/">Lab Academy</Navbar.Brand>
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                <Nav.Link className={'btn'} href="/detil-kategori">
+                <Nav.Link className={'btn'} href="/kategori">
                    Kelas
                 </Nav.Link>
                 <Nav.Link>
@@ -21,7 +21,6 @@ function NavigationBar() {
                 </Nav.Link>
             </Navbar.Collapse>
         </Navbar>
-
     );
 }
 

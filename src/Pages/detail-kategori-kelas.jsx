@@ -6,7 +6,7 @@ import Footer from '../Components/Footer/footer';
 
 import DetailKategoriKelas from '../Components/DetailKategoriKelas/DetailKategoriKelas'
 
-const UserPage_kategori_kelas = () => {
+const UserPage_kelas = () => {
 
     return (
         <div>
@@ -18,4 +18,4 @@ const UserPage_kategori_kelas = () => {
     );
 }
 
-export default UserPage_kategori_kelas;
+export default UserPage_kelas;
