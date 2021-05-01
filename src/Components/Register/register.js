@@ -66,7 +66,7 @@ function Register() {
   return (
     <>
       <button className= {"button"} onClick={() => setModalShow(true)} >
-          Register
+          Daftar
           </button>
       <RegisterModal
         show={modalShow}

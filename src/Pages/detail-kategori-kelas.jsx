@@ -6,16 +6,16 @@ import Footer from '../Components/Footer/footer';
 
 import DetailKategoriKelas from '../Components/DetailKategoriKelas/DetailKategoriKelas'
 
-const UserPage_Deatailkategori = () => {
+const UserPage_kelas = () => {
 
     return (
         <div>
             <NavigationBar />
             <DetailKategoriKelas />
-            {/* <Footer /> */}
+            <Footer />
         </div>
 
     );
 }
 
-export default UserPage_Deatailkategori;
+export default UserPage_kelas;
