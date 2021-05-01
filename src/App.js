@@ -21,8 +21,8 @@ import {
 
 //Pages
 import MainPage from "./Pages";
-import UserPage_kategori from './Pages/detail-kategori';
-import UserPage_kelas from './Pages/detail-kategori-kelas';
+import UserPage_kategori from './Pages/kategori';
+import UserPage_kelas from './Pages/kelas';
 import UserPage_detail_kelas from './Pages/detail-kelas';
 
 
