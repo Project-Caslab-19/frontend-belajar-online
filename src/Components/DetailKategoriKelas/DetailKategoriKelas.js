@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './DetailKategoriKelas.css'
 import Card from 'react-bootstrap/Card'
@@ -112,5 +113,6 @@ function DetailKatergori () {
 
     )
 }
+
 
 export default DetailKatergori
