@@ -35,7 +35,7 @@ class App extends Component {
       <Route path="/kategori" component={UserPage_kategori} />
       <Route path="/kelas" component={UserPage_kelas} />
       <Route path="/detail-kelas" component={UserPage_detail_kelas} />
-  
+      
     </Router>;
   }
 }
