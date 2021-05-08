@@ -15,7 +15,7 @@ function DetailKatergori () {
                 <Card className = 'card'>
                     <Card.Body>
                         <Row>
-                            <Col sm={3}> <div className ='imgKelas'><img  src={img} /></div> </Col>
+                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
                             <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
@@ -40,8 +40,8 @@ function DetailKatergori () {
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
                                 </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
+                                <button className={"buttonkecil"} onClick={''} >
+                                    Lihat
                                     </button>
                             </Col>
                             <Col>
@@ -57,8 +57,8 @@ function DetailKatergori () {
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
                                 </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
+                                <button className={"buttonkecil"} onClick={''} >
+                                    Lihat
                                     </button>
                             </Col>
                             <Col>
@@ -74,8 +74,8 @@ function DetailKatergori () {
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
                                 </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
+                                <button className={"buttonkecil"} onClick={''} >
+                                    Lihat
                                     </button>
                             </Col>
                             <Col>
@@ -91,8 +91,8 @@ function DetailKatergori () {
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
                                 </Card.Text>
-                                <button className={"buttonSelengkapnya"} onClick={''} >
-                                    Selengkapnya
+                                <button className={"buttonkecil"} onClick={''} >
+                                    Lihat
                                     </button>
                             </Col>
                             <Col>
