@@ -25,7 +25,7 @@ import MainPage from "./Pages";
 import UserPage_kategori from './Pages/kategori';
 import UserPage_kelas from './Pages/kelas';
 import UserPage_detail_kelas from './Pages/detail-kelas';
-import UserPage_materi_quiz from './Pages/materi-quiz';
+
 
 
 class App extends Component {
@@ -35,7 +35,7 @@ class App extends Component {
       <Route path="/kategori" component={UserPage_kategori} />
       <Route path="/kelas" component={UserPage_kelas} />
       <Route path="/detail-kelas" component={UserPage_detail_kelas} />
-
+  
     </Router>;
   }
 }
