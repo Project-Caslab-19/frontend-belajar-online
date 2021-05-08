@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import './App.css';
 // import axios from 'axios'
@@ -34,9 +35,10 @@ class App extends Component {
       <Route path="/kategori" component={UserPage_kategori} />
       <Route path="/kelas" component={UserPage_kelas} />
       <Route path="/detail-kelas" component={UserPage_detail_kelas} />
-      <Route path="/materi-quiz" component={UserPage_materi_quiz} />
+
     </Router>;
   }
 }
 
 export default App;
+
