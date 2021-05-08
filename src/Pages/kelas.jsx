@@ -1,20 +1,21 @@
+
 import React from 'react';
 import NavigationBar from '../Components/Navbar/navbar';
 
 import Footer from '../Components/Footer/footer';
 
-import DetailKelas from '../Components/DetailKelas/detailKelas'
+import DetailKategoriKelas from '../Components/DetailKategoriKelas/DetailKategoriKelas'
 
-const UserPage_detail_kelas = () => {
+const UserPage_kelas = () => {
 
     return (
         <div>
             <NavigationBar />
-            <DetailKelas/>
+            <DetailKategoriKelas />
             <Footer />
         </div>
 
     );
 }
 
-export default UserPage_detail_kelas;
+export default UserPage_kelas;

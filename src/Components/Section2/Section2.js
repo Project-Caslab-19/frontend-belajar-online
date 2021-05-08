@@ -38,9 +38,11 @@ function Section2() {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
-                                <button className={"buttonSelengkapnya"} onClick={''} >
+                            <a href="/kelas">
+                                <button className={"buttonSelengkapnya"}>
                                     Selengkapnya
                                     </button>
+                                </a>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -53,9 +55,11 @@ function Section2() {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
-                                <button className={"buttonSelengkapnya"} onClick={''} >
+                                <a href="/kelas">
+                                <button className={"buttonSelengkapnya"}>
                                     Selengkapnya
                                     </button>
+                                </a>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -69,9 +73,11 @@ function Section2() {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
-                                <button className={"buttonSelengkapnya"} onClick={''} >
+                            <a href="/kelas">
+                                <button className={"buttonSelengkapnya"}>
                                     Selengkapnya
                                     </button>
+                                </a>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -85,9 +91,11 @@ function Section2() {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-center">
-                                <button className={"buttonSelengkapnya"} onClick={''} >
+                            <a href="/kelas">
+                                <button className={"buttonSelengkapnya"}>
                                     Selengkapnya
                                     </button>
+                                </a>
                             </Card.Footer>
                         </Card>
                     </CardGroup>
