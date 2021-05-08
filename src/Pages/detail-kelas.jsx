@@ -3,18 +3,18 @@ import NavigationBar from '../Components/Navbar/navbar';
 
 import Footer from '../Components/Footer/footer';
 
-import KategoriKelas from '../Components/KategoriKelas/KategoriKelas'
+import DetailKelas from '../Components/DetailKelas/detailKelas'
 
-const UserPage_kategori = () => {
+const UserPage_detail_kelas = () => {
 
     return (
         <div>
             <NavigationBar />
-            <KategoriKelas />
+            <DetailKelas/>
             <Footer />
         </div>
 
     );
 }
 
-export default UserPage_kategori;
+export default UserPage_detail_kelas;
