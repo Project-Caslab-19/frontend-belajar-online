@@ -12,10 +12,10 @@ function DetailKatergori () {
 
         <Container>
             <Row>
-                <Card className = 'card'>
+                <Card className = 'kartu'>
                     <Card.Body>
                         <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
+                            <Col sm={3}> <div className ='imgKelas'><img  src={img} /></div> </Col>
                             <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
@@ -32,7 +32,7 @@ function DetailKatergori () {
                     </Card.Body>
                 </Card>
 
-                <Card>
+                <Card className = 'kartu'>
                 <Card.Body>
                         <Row>
                             <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
@@ -49,7 +49,9 @@ function DetailKatergori () {
                             </Col>
                         </Row>
                     </Card.Body>
-                </Card><Card>
+                </Card>
+                
+                <Card className = 'kartu'>
                 <Card.Body>
                         <Row>
                             <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
@@ -66,24 +68,9 @@ function DetailKatergori () {
                             </Col>
                         </Row>
                     </Card.Body>
-                </Card><Card>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
-                                <button className={"buttonkecil"} onClick={''} >
-                                    Lihat
-                                    </button>
-                            </Col>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
-                    </Card.Body>
-                </Card><Card>
+                </Card>
+                
+                <Card className = 'kartu'>
                 <Card.Body>
                         <Row>
                             <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
