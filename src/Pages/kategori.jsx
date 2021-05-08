@@ -8,7 +8,6 @@ const UserPage_kategori = () => {
 
     return (
         <div>
-
             <NavigationBar />
             <KategoriKelas />
             <Footer />
