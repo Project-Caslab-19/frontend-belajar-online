@@ -31,7 +31,7 @@ class App extends Component {
     return <Router>
       <Route path="/" component={MainPage} exact />
       <Route path="/detil-kategori" component={UserPage_kategori} />
-    </Router>;
+    </Router>; 
   }
 }
 
