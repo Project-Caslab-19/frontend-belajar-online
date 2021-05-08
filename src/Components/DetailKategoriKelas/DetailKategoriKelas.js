@@ -12,15 +12,6 @@ function DetailKatergori() {
     return (
         <Container>
             <Row>
-<<<<<<< HEAD
-                <Card className = 'kartu'>
-                    <Card.Body>
-                        <Row>
-                            <Col sm={3}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-=======
                 <Card className="justify-content-md-center">
                     <Col md="auto">
 
@@ -31,7 +22,6 @@ function DetailKatergori() {
                                     <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                         <Card.Text>
                                             With supporting text below as a natural lead-in to additional content.
->>>>>>> 689dc537057bcbd0a47d794f046a3123174256eb
                                 </Card.Text>
                                     </Col>
                                 </Row>
@@ -48,34 +38,6 @@ function DetailKatergori() {
                     </Col>
                 </Card>
 
-<<<<<<< HEAD
-                <Card className = 'kartu'>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
-                                <button className={"buttonkecil"} onClick={''} >
-                                    Lihat
-                                    </button>
-                            </Col>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
-                    </Card.Body>
-                </Card>
-                
-                <Card className = 'kartu'>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-=======
 
                 <Card className="justify-content-md-center">
                     <Col md="auto">
@@ -110,29 +72,11 @@ function DetailKatergori() {
                                     <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                         <Card.Text>
                                             With supporting text below as a natural lead-in to additional content.
->>>>>>> 689dc537057bcbd0a47d794f046a3123174256eb
                                 </Card.Text>
                                 <a href="/detail-kelas">
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
                                     </button>
-<<<<<<< HEAD
-                            </Col>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
-                    </Card.Body>
-                </Card>
-                
-                <Card className = 'kartu'>
-                <Card.Body>
-                        <Row>
-                            <Col sm={4}> <div className ='imgKelas'><img  src={img} /></div> </Col>
-                            <Col sm={8}><Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-=======
                                 </a>
                                     </Col>
 
@@ -152,7 +96,6 @@ function DetailKatergori() {
                                     <Col sm={8}><Card.Title>Special title treatment</Card.Title>
                                         <Card.Text>
                                             With supporting text below as a natural lead-in to additional content.
->>>>>>> 689dc537057bcbd0a47d794f046a3123174256eb
                                 </Card.Text>
                                 <a href="/detail-kelas">
                                 <button className={"buttonkecil"} onClick={''} >
