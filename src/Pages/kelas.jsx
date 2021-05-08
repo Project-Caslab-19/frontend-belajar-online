@@ -1,4 +1,3 @@
-
 import React from 'react';
 import NavigationBar from '../Components/Navbar/navbar';
 
@@ -19,3 +18,4 @@ const UserPage_kelas = () => {
 }
 
 export default UserPage_kelas;
+
