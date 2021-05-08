@@ -6,10 +6,10 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 
-function DetailKelas() {
+function KategoriKelas() {
     return (
 
-        <Container >
+        <Container>
             <Row>
                 <Card className="kategori">
                     <Card.Body>
@@ -19,10 +19,14 @@ function DetailKelas() {
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
                                 
-    </Card.Text>
+                    </Card.Text>
+                                <a href="/kelas">
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
-                                    </button></Col>
+                                    </button>
+                                </a>
+                                    </Col>
+                           
                         </Row>
                     </Card.Body>
                 </Card>
@@ -35,10 +39,14 @@ function DetailKelas() {
                             <Col sm={8}><Card.Title>Rekayasa Perangkat Lunak</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
+                                </Card.Text>
+                                <a href="/kategori">
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
-                                    </button></Col>
+                                    </button>
+                                    </a>
+                                    </Col>
+                                   
                         </Row>
                     </Card.Body>
                 </Card>
@@ -52,7 +60,7 @@ function DetailKelas() {
                             <Col sm={8}><Card.Title>Game Cerdas</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
+                            </Card.Text>
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
                                     </button></Col>
@@ -69,7 +77,7 @@ function DetailKelas() {
                             <Col sm={8}><Card.Title>Jaringan Komputer</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
+                            </Card.Text>
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
                                     </button></Col>
@@ -82,4 +90,4 @@ function DetailKelas() {
     )
 }
 
-export default DetailKelas
+export default KategoriKelas
