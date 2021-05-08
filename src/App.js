@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import './App.css';
 // import axios from 'axios'
@@ -8,7 +9,7 @@ import './App.css';
 
 // axios.get('https://api.github.com/user', {
 //   headers: {
-//     'Authorization': token ${access_token}
+//     'Authorization': `token ${access_token}`
 //   }
 // })
 import {
@@ -24,6 +25,7 @@ import MainPage from "./Pages";
 import UserPage_kategori from './Pages/kategori';
 import UserPage_kelas from './Pages/kelas';
 import UserPage_detail_kelas from './Pages/detail-kelas';
+import Kelas_Video from './Pages/materi-video';
 
 
 class App extends Component {
@@ -33,8 +35,10 @@ class App extends Component {
       <Route path="/kategori" component={UserPage_kategori} />
       <Route path="/kelas" component={UserPage_kelas} />
       <Route path="/detail-kelas" component={UserPage_detail_kelas} />
+      <Route path="/materi-video" component={Kelas_Video} />
     </Router>;
   }
 }
 
 export default App;
+
