@@ -8,7 +8,7 @@ import './App.css';
 
 // axios.get('https://api.github.com/user', {
 //   headers: {
-//     'Authorization': `token ${access_token}`
+//     'Authorization': token ${access_token}
 //   }
 // })
 import {
