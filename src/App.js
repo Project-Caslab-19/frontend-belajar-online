@@ -29,6 +29,7 @@ import UserPage_materi_video from './Pages/materi-video';
 import UserPage_materi_quiz from './Pages/materi-quiz';
 
 
+
 class App extends Component {
   render() {
     return <Router>
@@ -38,7 +39,8 @@ class App extends Component {
       <Route path="/detail-kelas" component={UserPage_detail_kelas} />
       <Route path="/materi-video" component={UserPage_materi_video} />
       <Route path="/materi-quiz" component={UserPage_materi_quiz} />
-    </Router>;
+   
+    </Router>
   }
 }
 
