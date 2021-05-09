@@ -11,7 +11,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 const Side = props => {
     return (
         <>
-            <Nav className="col-md-12 d-flex d-md-block bg-dark  sidebar"
+            <Nav className="col-md-12 d-flex d-md-block bg-dark sidebar"
                 activeKey="#"
                 onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
 
@@ -56,7 +56,7 @@ const Side = props => {
                 </Button></a>
 
                 <div className="sidebar-sticky">Midterm Exam</div>
-                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar">
+                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
                     <a className="font-sidebar-term">Midterm Exam</a>
                 </Button></a>
 
@@ -72,7 +72,7 @@ const Side = props => {
                 </Button></a>
 
                 <div className="sidebar-sticky">Final Exam</div>
-                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar">
+                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
                     <a className="font-sidebar-term">Final Exam</a>
                 </Button></a>
 
