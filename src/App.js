@@ -39,7 +39,6 @@ class App extends Component {
       <Route path="/detail-kelas" component={UserPage_detail_kelas} />
       <Route path="/materi-video" component={UserPage_materi_video} />
       <Route path="/materi-quiz" component={UserPage_materi_quiz} />
-   
     </Router>
   }
 }

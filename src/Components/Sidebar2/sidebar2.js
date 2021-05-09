@@ -11,8 +11,6 @@ const Side2 = props => {
             <Nav className="col-md-12 d-none d-md-block bg-dark sidebar"
                 activeKey="#"
                 onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
-
-
                 <div className="sidebar2-sticky">Academy</div>
                 <a href="#">
                     <Button variant="secondary" size="m" className="buttonsidebar">
@@ -33,7 +31,6 @@ const Side2 = props => {
                     <a className="font-sidebar">Keluar</a>
                 </Button></a>
             </Nav>
-
         </>
     );
 };
