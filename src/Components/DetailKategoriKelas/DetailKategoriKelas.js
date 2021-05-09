@@ -14,7 +14,6 @@ function DetailKatergori() {
             <Row>
                 <Card className="justify-content-md-center">
                     <Col md="auto">
-
                         <Card.Body>
                             <div style={{ width: 1000 }}>
                                 <Row>
@@ -34,7 +33,6 @@ function DetailKatergori() {
                                 </Row>
                             </div>
                         </Card.Body>
-
                     </Col>
                 </Card>
 

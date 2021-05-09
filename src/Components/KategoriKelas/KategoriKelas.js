@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import img from './2.svg';
 
 
 function KategoriKelas() {
@@ -14,9 +15,11 @@ function KategoriKelas() {
                 <Card className="kategori">
                     <Card.Body>
                         <Row>
-                            <Col sm={4}>Foto</Col>
+                            <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Data Science</Card.Title>
                                 <Card.Text>
+                                    With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as a natural lead-in to additional content.
                                     With supporting text below as a natural lead-in to additional content.
                                 
                     </Card.Text>
@@ -35,10 +38,14 @@ function KategoriKelas() {
                 <Card className="kategori">
                     <Card.Body>
                         <Row>
-                            <Col sm={4}>Foto</Col>
+                            <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Rekayasa Perangkat Lunak</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as a natural lead-in to additional content.
+
                                 </Card.Text>
                                 <a href="/kategori">
                                 <button className={"buttonkecil"} onClick={''} >
@@ -56,7 +63,7 @@ function KategoriKelas() {
 
                     <Card.Body>
                         <Row>
-                            <Col sm={4}>Foto</Col>
+                            <Col sm={4}><div className='iemg'><img src={img} className="pcc-img" /></div></Col>
                             <Col sm={8}><Card.Title>Game Cerdas</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
@@ -73,10 +80,10 @@ function KategoriKelas() {
 
                     <Card.Body>
                         <Row>
-                            <Col sm={4}>Foto</Col>
+                            <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Jaringan Komputer</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
+                                <Card.Text> 
+                                With supporting text below as a natural lead-in to additional content.
                             </Card.Text>
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
