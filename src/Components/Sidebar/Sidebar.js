@@ -11,7 +11,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 const Side = props => {
     return (
         <>
-            <Nav className="col-md-12 d-flex d-md-block bg-dark sidebar"
+            <Nav className="col-md-12 d-none d-md-block bg-dark sidebar"
                 activeKey="#"
                 onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
 
