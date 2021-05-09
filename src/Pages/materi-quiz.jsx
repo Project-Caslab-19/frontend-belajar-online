@@ -4,9 +4,6 @@ import Navbar2 from '../Components/Navbar2/navbar2';
 import Footer from '../Components/Footer/footer';
 import MateriQuiz from '../Components/MateriQuiz/materiquiz';
 
-
-
-
 const UserPage_materi_quiz = () => {
 
     return (
