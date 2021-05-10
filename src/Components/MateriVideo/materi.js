@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../node_modules/video-react/dist/video-react.css'; // import css
+import './materi.css'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -7,7 +8,7 @@ import { Player } from 'video-react';
 <link rel="stylesheet" href="/css/video-react.css" />
 
 
-function Quiz() {
+function MateriVideo() {
     return (
 
 
@@ -15,12 +16,8 @@ function Quiz() {
         <Container className="justify-content-md-center">
 
             <Row>
-                <Col>Midtern Exam - 30 min</Col>
+                <Col className = 'judulMateri'>Data Science</Col>
             </Row>
-            <Row>
-                <Col className = 'judulMateri'>Intorduction Machine Learning</Col>
-            </Row>
-
             <Row>
                 <Col> <div style={{ width: 1100, }}>
                 <Player
@@ -38,4 +35,4 @@ function Quiz() {
     )
 }
 
-export default Quiz
+export default MateriVideo

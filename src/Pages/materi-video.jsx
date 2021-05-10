@@ -3,10 +3,11 @@ import {Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import { withRouter } from "react-router";
 import Sidebar from "../Components/Sidebar/Sidebar";
 import Navbar2 from '../Components/Navbar2/navbar2';
+import Materi from '../Components/MateriVideo/materi';
 
 
 
-    const Kelas_Vid = props => {
+const MateriVideo = () => {
    
 
     return (
@@ -19,7 +20,7 @@ import Navbar2 from '../Components/Navbar2/navbar2';
                       <Sidebar />
                     </Col>
                     <Col  xs={10} id="page-content-wrapper">
-                        Test Main
+                        <Materi />
                     </Col> 
                 </Row>
             </Container>
@@ -29,5 +30,4 @@ import Navbar2 from '../Components/Navbar2/navbar2';
         );
   };
   
-  const Kelas_Video = withRouter(Kelas_Vid);
-  export default Kelas_Video
+export default MateriVideo;
