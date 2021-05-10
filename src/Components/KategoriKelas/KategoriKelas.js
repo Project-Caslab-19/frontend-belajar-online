@@ -11,7 +11,13 @@ function KategoriKelas() {
     return (
 
         <Container>
+              <Row>
+    <Col></Col>
+    <Col className="tittle-kategori">CASLAB ACADEMY</Col>
+    <Col></Col>
+  </Row>
             <Row>
+                
                 <Card className="kategori">
                     <Card.Body>
                         <Row>
@@ -23,7 +29,7 @@ function KategoriKelas() {
                                     With supporting text below as a natural lead-in to additional content.
                                 
                     </Card.Text>
-                                <a href="/kelas">
+                                <a href="/detail-kelas">
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
                                     </button>
