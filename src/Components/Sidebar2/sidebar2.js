@@ -14,21 +14,21 @@ const Side2 = props => {
                 <div className="sidebar2-sticky">Academy</div>
                 <a href="#">
                     <Button variant="secondary" size="m" className="buttonsidebar">
-                        <a className="font-sidebar">Kelas Saya</a>
+                        <h className="font-sidebar">Kelas Saya</h>
                     </Button >
                 </a>
                 <a href="#">   <Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Exam Saya</a>
+                    <h className="font-sidebar">Exam Saya</h>
                 </Button></a>
                 <div className="sidebar2-sticky">Akun</div>
                 <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Edit Profil</a>
+                    <h className="font-sidebar">Edit Profil</h>
                 </Button></a>
                 <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Pengaturan Akun</a>
+                    <h className="font-sidebar">Pengaturan Akun</h>
                 </Button></a>
                 <a href="/"> <Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Keluar</a>
+                    <h className="font-sidebar">Keluar</h>
                 </Button></a>
             </Nav>
         </>

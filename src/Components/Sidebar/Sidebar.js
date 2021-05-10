@@ -31,49 +31,49 @@ const Side = props => {
                 <div className="sidebar-sticky">Intro</div>
                 <a href="#">
                     <Button variant="secondary" size="m" className="buttonsidebar">
-                        <a className="font-sidebar">Trailer Kelas</a>
+                        <h className="font-sidebar">Trailer Kelas</h>
                     </Button >
                 </a>
                 <div className="sidebar-sticky">Introduction</div>
                 <a href="#">   <Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 1</a>
+                    <h className="font-sidebar">Bagian 1</h>
                     <FontAwesomeIcon icon={faCheck} />
                 </Button></a>
                 <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 2</a>
+                    <h className="font-sidebar">Bagian 2</h>
                     <FontAwesomeIcon icon={faCheck} />
                 </Button></a>
 
                 <div className="sidebar-sticky">Modul 1 : Basic</div>
                 <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 1</a>
+                    <h className="font-sidebar">Bagian 1</h>
                 </Button></a>
                 <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 2</a>
+                    <h className="font-sidebar">Bagian 2</h>
                 </Button></a>
                 <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Quiz</a>
+                    <h className="font-sidebar">Quiz</h>
                 </Button></a>
 
                 <div className="sidebar-sticky">Midterm Exam</div>
                 <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
-                    <a className="font-sidebar-term">Midterm Exam</a>
+                    <h className="font-sidebar-term">Midterm Exam</h>
                 </Button></a>
 
                 <div className="sidebar-sticky">Modul 2 : OOP</div>
                 <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 1</a>
+                    <h className="font-sidebar">Bagian 1</h>
                 </Button></a>
                 <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 2</a>
+                    <h className="font-sidebar">Bagian 2</h>
                 </Button></a>
                 <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
-                    <a className="font-sidebar">Bagian 3</a>
+                    <h className="font-sidebar">Bagian 3</h>
                 </Button></a>
 
                 <div className="sidebar-sticky">Final Exam</div>
-                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
-                    <a className="font-sidebar-term">Final Exam</a>
+                <a href="/"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
+                    <h className="font-sidebar-term">Final Exam</h>
                 </Button></a>
 
             </Nav>
