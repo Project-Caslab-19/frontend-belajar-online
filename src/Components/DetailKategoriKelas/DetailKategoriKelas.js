@@ -108,11 +108,6 @@ function DetailKatergori() {
                         </Card.Body>
                     </Col>
                 </Card>
-
-
-
-
-
             </Row>
 
         </Container>
