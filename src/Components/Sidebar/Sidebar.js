@@ -12,7 +12,11 @@ const Side = props => {
             >
                 <div className="sidebar-sticky"></div>
             <Nav.Item>
-                <Nav.Link href="/home">Menu 1</Nav.Link>
+            <a href="/kelas">
+                                <button className={"buttonSelengkapnya"}>
+                                    Selengkapnya
+                                    </button>
+                                </a>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link eventKey="Menu 2">Menu 2</Nav.Link>

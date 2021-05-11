@@ -24,7 +24,7 @@ import Navbar2 from '../Components/Navbar2/navbar2';
                 </Row>
             </Container>
         </div>
-         
+
         </>
         );
   };
