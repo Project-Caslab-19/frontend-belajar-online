@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import { withRouter } from "react-router";
 import Sidebar from "../Components/Sidebar/Sidebar";
 import Navbar2 from '../Components/Navbar2/navbar2';
