@@ -18,7 +18,7 @@ function KategoriKelas() {
   </Row>
             <Row>
                 
-                <Card className="kategori">
+                <Card >
                     <Card.Body>
                     <div style={{ width: 1000, height: 200 }}>
                         <Row>
@@ -30,7 +30,7 @@ function KategoriKelas() {
                                     With supporting text below as a natural lead-in to additional content.
                                 
                     </Card.Text>
-                                <a href="/detail-kelas">
+                                <a href="/kelas">
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
                                     </button>

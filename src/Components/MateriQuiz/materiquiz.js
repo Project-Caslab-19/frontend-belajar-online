@@ -1,10 +1,8 @@
-import React from 'react'
-import '../../../node_modules/video-react/dist/video-react.css'; // import css
+import React from 'react'// import css
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import { Player } from 'video-react';
-<link rel="stylesheet" href="/css/video-react.css" />
+import './materiquiz.css'
 
 
 function Quiz() {
@@ -12,25 +10,30 @@ function Quiz() {
 
 
 
-        <Container className="justify-content-md-center">
+        <Container  className="justify-content-md-center">
 
             <Row>
-                <Col>Midtern Exam - 30 min</Col>
+                <Col className='col1' >Midtern Exam - 30 min</Col>
             </Row>
             <Row>
-                <Col className = 'judulMateri'>Intorduction Machine Learning</Col>
+                <Col className='judulQuiz'>Intorduction Machine Learning</Col>
             </Row>
 
             <Row>
-                <Col> <div style={{ width: 1100, }}>
-                <Player
-                        playsInline
-                        poster="/assets/poster.png" //thumbnail
-                        src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-                    />
-                </div>
-                </Col>
+                <Col>Submit your assignment</Col>
+               
             </Row>
+
+            <Row  >
+                <Col  xs={3}><b>DUE DATE</b> Apr 18, 11:59 PM PDT</Col>
+                <Col xs={7}><b>ATTEMPTS</b> 3 every 8 hours</Col>
+                <Col ><a href="/">
+                                <button className={"startbutton"} onClick={''} >
+                                    Start
+                                    </button>
+                                </a></Col>
+            </Row>
+            
 
 
         </Container>
