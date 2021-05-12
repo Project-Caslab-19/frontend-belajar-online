@@ -1,4 +1,4 @@
-.col1 {
+.firstCol {
     font-weight: 600;
     padding-bottom: 7px;
 
@@ -7,5 +7,10 @@
     font-size: 24px;
     padding-bottom: 60px;
     font-weight: 500;
+}
+
+
+.lastRow{
+    padding-top: 80px;
 }
 

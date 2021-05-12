@@ -10,10 +10,10 @@ function Quiz() {
 
 
 
-        <Container  className="justify-content-md-center">
+        <Container className="justify-content-md-center">
 
             <Row>
-                <Col className='col1' >Midtern Exam - 30 min</Col>
+                <Col className='firstCol' >Midtern Exam - 30 min</Col>
             </Row>
             <Row>
                 <Col className='judulQuiz'>Intorduction Machine Learning</Col>
@@ -21,19 +21,28 @@ function Quiz() {
 
             <Row>
                 <Col>Submit your assignment</Col>
-               
+
             </Row>
 
             <Row  >
-                <Col  xs={3}><b>DUE DATE</b> Apr 18, 11:59 PM PDT</Col>
+                <Col xs={3}><b>DUE DATE</b> Apr 18, 11:59 PM PDT</Col>
                 <Col xs={7}><b>ATTEMPTS</b> 3 every 8 hours</Col>
-                <Col ><a href="/">
-                                <button className={"startbutton"} onClick={''} >
-                                    Start
+                <Col ><a href="/soal-quiz">
+                    <button className={"startbutton"} onClick={''} >
+                        Start
                                     </button>
-                                </a></Col>
+                </a></Col>
             </Row>
-            
+
+
+            <Row  className='lastRow' >
+                <Col  xs={3}>Receive grade</Col>
+                <Col xs={7}>Grade</Col>
+            </Row>
+            <Row  >
+                <Col ><b>TO PASS</b> 80% or higher</Col>
+            </Row>
+
 
 
         </Container>

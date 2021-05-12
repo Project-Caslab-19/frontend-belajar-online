@@ -1,82 +1,79 @@
 import React, { useState } from 'react';
 import './question.css'
-export default function Question() {
-	const questions = [
-		{
-			questionText: 'What is the capital of France?',
-			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'Who is CEO of Tesla?',
-			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'The iPhone was created by which company?',
-			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'How many Harry Potter books are there?',
-			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
-			],
-		},
-	];
+import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
 
-	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [showScore, setShowScore] = useState(false);
-	const [score, setScore] = useState(0);
-
-	const handleAnswerOptionClick = (isCorrect) => {
-		if (isCorrect) {
-			setScore(score + 1);
-		}
-
-		const nextQuestion = currentQuestion + 1;
-		if (nextQuestion < questions.length) {
-			setCurrentQuestion(nextQuestion);
-		} else {
-			setShowScore(true);
-		}
-	};
+function Question() {
 	return (
-		<div className='app'>
-			{showScore ? (
-				<div className='score-section'>
-					You scored {score} out of {questions.length}
-				</div>
-			) : (
-				<>
-					<div className='question-section'>
-						<div className='question-count'>
-							<span>Question {currentQuestion + 1}</span>/{questions.length}
-						</div>
-						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+
+
+
+		<Container className="justify-content-md-center">
+
+			<Row>
+				<Col className='col1' ></Col>
+			</Row>
+			<Row>
+				<Col className='judulQuiz'>Intorduction Machine Learning</Col>
+			</Row>
+
+			<Row>
+				<Col>CSS Stands for...</Col>
+			</Row>
+
+			<Row>
+				<Col className='soalQuiz'>
+					<div>
+						<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+						<label for="question-1-answers-A">Computer Styled Sections </label>
 					</div>
-					<div className='answer-section'>
-						{questions[currentQuestion].answerOptions.map((answerOption) => (
-							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-						))}
+
+					<div>
+						<input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+						<label for="question-1-answers-B">Cascading Style Sheets</label>
 					</div>
-				</>
-			)}
-		</div>
-	);
+
+					<div>
+						<input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+						<label for="question-1-answers-C">Crazy Solid Shapes</label>
+					</div>
+
+					<div>
+						<input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+						<label for="question-1-answers-D">None of the above</label>
+					</div>
+				</Col>
+			</Row>
+
+			<Row className ='controlBtn' >
+				<Col xs={3}><a href="/soal-quiz">
+					<button className={"startbutton"} onClick={''} >
+						Submit
+                                    </button>
+				</a></Col>
+				<Col xs={5}></Col>
+				<Col > <a className = 'prevQuest' href="/soal-quiz">
+					<button className={"navbutton"} onClick={''} >
+						Sebelumnya
+                                    </button>
+				</a>
+	
+				<a href="/soal-quiz">
+					<button className={"navbutton"} onClick={''} >
+						Selanjutnya
+                                    </button>
+				</a></Col>
+			</Row>
+
+
+
+		</Container>
+
+	)
 }
+
+export default Question
+
+
+
