@@ -31,10 +31,11 @@ function DetailKelas() {
                                     </Card.Text>
                             <Row>
                                 <Col sm={8}>
+                                <a href="/materi-video">
                                     <button className={"buttonSelengkapnya"} onClick={''} >
                                         Enroll
                                     </button>
-
+                                </a>
                                 </Col>
                                 <Col sm={4}>
                                     <style type="text/css">
