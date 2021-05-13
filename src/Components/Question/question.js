@@ -12,10 +12,11 @@ function Question() {
 		<Container className="justify-content-md-center">
 
 			<Row>
-				<Col className='col1' ></Col>
+				<Col xs={9} className='judulQuiz'>Intorduction Machine Learning</Col>
+				<Col style={{ color: 'red' }} >Sisa waktu: 0:52:30</Col>
 			</Row>
 			<Row>
-				<Col className='judulQuiz'>Intorduction Machine Learning</Col>
+				
 			</Row>
 
 			<Row>
@@ -47,12 +48,11 @@ function Question() {
 			</Row>
 
 			<Row className ='controlBtn' >
-				<Col xs={3}><a href="/soal-quiz">
+				<Col xs={8}><a href="/soal-quiz">
 					<button className={"startbutton"} onClick={''} >
 						Submit
                                     </button>
 				</a></Col>
-				<Col xs={5}></Col>
 				<Col > <a className = 'prevQuest' href="/soal-quiz">
 					<button className={"navbutton"} onClick={''} >
 						Sebelumnya
