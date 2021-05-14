@@ -1,0 +1,19 @@
+.tittle-progkelas{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.hero-progkelas{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+.bar-progress{
+    display: flex;
+    margin-top: 20px;
+   width: 320px;
+}
+.sub-progkelas{
+    margin-top: 20px;
+}
