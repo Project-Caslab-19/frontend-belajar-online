@@ -25,7 +25,7 @@ function pengaturanakun() {
                     </div>
                 </Row>
                 <Row>
-                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 3 }}>
+                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13 }}>
                         Konfirmasi
     </Button>
                 </Row>
@@ -51,7 +51,7 @@ function pengaturanakun() {
                     </div>
                 </Row>
                 <Row>
-                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 3 }}>
+                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13 }}>
                         Simpan
     </Button>
                 </Row>
