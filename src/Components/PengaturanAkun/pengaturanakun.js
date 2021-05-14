@@ -21,11 +21,13 @@ function pengaturanakun() {
                 <Row>
                     <div className="form-group">
                         <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputpengatur" />
-                        <Col className="huruf-kecil-pengaturan">*Email akan berubah ketika Anda sudah menekan link verifikasi yang dikirimkan ke email baru Anda</Col>
                     </div>
                 </Row>
                 <Row>
-                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13 }}>
+                    <Col className="huruf-kecil-pengaturan">*Email akan berubah ketika Anda sudah menekan link verifikasi yang dikirimkan ke email baru Anda</Col>
+                </Row>
+                <Row>
+                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13, marginTop: 10 }}>
                         Konfirmasi
     </Button>
                 </Row>
@@ -37,23 +39,30 @@ function pengaturanakun() {
                 </Row>
                 <Row>
                     <div className="form-group">
-                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputpengatur" />
-                        <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
+                        <input className="form-control" placeholder="Masukkan Password" type="password" id="inputpengatur" />
+
                     </div>
+                </Row>
+                <Row>
+                    <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
                 </Row>
                 <Row>
                     <Col className="sub-pengaturan" style={{ marginTop: 5 }}>Konfirmasi Password Baru</Col>
                 </Row>
                 <Row>
                     <div className="form-group">
-                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputpengatur" />
-                        <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
+                        <input className="form-control" placeholder="Masukkan Password" type="password" id="inputpengatur" />
+
                     </div>
                 </Row>
                 <Row>
-                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13 }}>
+                    <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
+                </Row>
+                <Row>
+                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13, marginTop: 10 }}>
                         Simpan
     </Button>
+
                 </Row>
 
             </Container>
