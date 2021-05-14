@@ -15,19 +15,19 @@ function MateriVideo() {
 
 
 
-        <Container  className="justify-content-md-center">
+        <Container className="justify-content-md-center">
 
             <Row>
-                <Col className = 'judulMateri'>Data Science</Col>
-            </Row> 
+                <Col className='judulMateri'>Data Science</Col>
+            </Row>
             <Row>
-                <Col> <div style={{ width: 1000, }}>
-                <Player
+                <Col>
+                    <Player
                         playsInline
                         poster={thumbnail} //thumbnail
                         src={vid}
                     />
-                </div>
+
                 </Col>
             </Row>
 
