@@ -46,8 +46,8 @@ function progresskelas() {
                 <Row>
                     <Col xs className="hero-progkelas">Kelas Yang Sudah Lulus</Col>
                 </Row>
-                <Row xs={0} md={4} lg={0}>
-                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chatbot</Col>
+                <Row xs={0} md={4} lg={6}>
+                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chatbot1</Col>
                     <Col xs><Button variant="danger" size="m" size="m" style={{ marginTop: 10 }}>
                         Review Materi
     </Button></Col>
@@ -55,7 +55,7 @@ function progresskelas() {
                         Cetak Sertifikat
     </Button></Col>
                 </Row>
-                <Row xs={0} md={4} lg={0}>
+                <Row xs={0} md={4} lg={6}>
                     <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chatbot2</Col>
                     <Col xs><Button variant="danger" size="m" size="m" style={{ marginTop: 10 }}>
                         Review Materi
@@ -64,8 +64,8 @@ function progresskelas() {
                         Cetak Sertifikat
     </Button></Col>
                 </Row>
-                <Row xs={0} md={4} lg={0}>
-                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chatbot3</Col>
+                <Row xs={0} md={4} lg={6} >
+                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chasatbot3 </Col>
                     <Col xs><Button variant="danger" size="m" size="m" style={{ marginTop: 10 }}>
                         Review Materi
     </Button></Col>
@@ -73,9 +73,6 @@ function progresskelas() {
                         Cetak Sertifikat
     </Button></Col>
                 </Row>
-
-
-
             </Container>
         </div>
     )
