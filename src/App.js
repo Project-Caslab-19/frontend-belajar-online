@@ -29,6 +29,7 @@ import UserPage_materi_video from './Pages/materi-video';
 import UserPage_materi_quiz from './Pages/materi-quiz';
 import UserPage_soal_quiz from './Pages/soal';
 import UserPage_progress_kelas from './Pages/progress-kelas';
+import UserPage_pengaturan_akun from './Pages/pengaturan-akun';
 
 
 
@@ -43,6 +44,7 @@ class App extends Component {
       <Route path="/midterm-quiz" component={UserPage_materi_quiz} />
       <Route path="/soal-quiz" component={UserPage_soal_quiz} />
       <Route path="/progress-kelas" component={UserPage_progress_kelas} />
+      <Route path="/pengaturan-akun" component={UserPage_pengaturan_akun} />
     </Router>
   }
 }
