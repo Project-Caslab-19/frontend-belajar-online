@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import './modal.css';
 import { ReactComponent as LoginImg } from './login.svg';
 import './button.css';
+import axios from 'axios'
+import { render } from '@testing-library/react';
 
 
 function LoginModal(props) {
