@@ -20,7 +20,7 @@ function pengaturanakun() {
                 </Row>
                 <Row>
                     <div className="form-group">
-                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputUserName" />
+                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputpengatur" />
                         <Col className="huruf-kecil-pengaturan">*Email akan berubah ketika Anda sudah menekan link verifikasi yang dikirimkan ke email baru Anda</Col>
                     </div>
                 </Row>
@@ -37,7 +37,7 @@ function pengaturanakun() {
                 </Row>
                 <Row>
                     <div className="form-group">
-                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputUserName" />
+                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputpengatur" />
                         <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
                     </div>
                 </Row>
@@ -46,7 +46,7 @@ function pengaturanakun() {
                 </Row>
                 <Row>
                     <div className="form-group">
-                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputUserName" />
+                        <input className="form-control" placeholder="Masukkan email baru" type="text" id="inputpengatur" />
                         <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
                     </div>
                 </Row>
