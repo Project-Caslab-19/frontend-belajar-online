@@ -18,8 +18,9 @@ function KategoriKelas() {
   </Row>
             <Row>
                 
-                <Card className="kategori">
+                <Card >
                     <Card.Body>
+                    <div style={{ width: 1000, height: 200 }}>
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Data Science</Card.Title>
@@ -29,7 +30,7 @@ function KategoriKelas() {
                                     With supporting text below as a natural lead-in to additional content.
                                 
                     </Card.Text>
-                                <a href="/detail-kelas">
+                                <a href="/kelas">
                                 <button className={"buttonkecil"} onClick={''} >
                                     Lihat
                                     </button>
@@ -37,12 +38,14 @@ function KategoriKelas() {
                                     </Col>
                            
                         </Row>
+                        </div>
                     </Card.Body>
                 </Card>
             </Row>
             <Row>
-                <Card className="kategori">
+                <Card>
                     <Card.Body>
+                    <div style={{ width: 1000, height: 200 }}>
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Rekayasa Perangkat Lunak</Card.Title>
@@ -61,13 +64,15 @@ function KategoriKelas() {
                                     </Col>
                                    
                         </Row>
+                    </div>
                     </Card.Body>
                 </Card>
             </Row>
             <Row>
-                <Card className="kategori">
+                <Card>
 
                     <Card.Body>
+                    <div style={{ width: 1000, height: 200 }}>
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img" /></div></Col>
                             <Col sm={8}><Card.Title>Game Cerdas</Card.Title>
@@ -78,13 +83,15 @@ function KategoriKelas() {
                                     Lihat
                                     </button></Col>
                         </Row>
+                    </div>
                     </Card.Body>
                 </Card>
             </Row>
             <Row>
-                <Card className="kategori">
+                <Card>
 
                     <Card.Body>
+                    <div style={{ width: 1000, height: 200 }}>
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Jaringan Komputer</Card.Title>
@@ -95,6 +102,7 @@ function KategoriKelas() {
                                     Lihat
                                     </button></Col>
                         </Row>
+                    </div>
                     </Card.Body>
                 </Card>
             </Row>
