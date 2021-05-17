@@ -1,0 +1,29 @@
+.buttonMedium{
+    background-color: #FF5A5F; 
+    height: 45px;
+    width: 150px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.buttonMedium-Second{
+    background-color: #767676; 
+    height: 45px;
+    width: 150px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}

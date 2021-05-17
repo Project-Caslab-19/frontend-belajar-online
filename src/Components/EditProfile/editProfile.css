@@ -3,11 +3,11 @@
     font-weight: bold;
     margin-top: 20px ;
 }
-.huruf-kecil-pengaturan{
+.huruf-kecil-profile{
     font-size: 10px;
     font-weight: 500;
-    margin-top: -10px;
+    margin-left: 15px;
 }
-#inputpengatur{  
-    margin-left: 13px;
+.formMargin{  
+    margin-left: 13px !important;
 }

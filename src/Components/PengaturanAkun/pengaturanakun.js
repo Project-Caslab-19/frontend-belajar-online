@@ -4,19 +4,20 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './pengaturanakun.css'
 import Button from 'react-bootstrap/Button'
+import './button.css';
 
 function pengaturanakun() {
     return (
         <div>
             <Container>
                 <Row>
-                    <Col className="tittle-progkelas">Pengaturan Akun</Col>
+                    <Col className="tittle">Pengaturan Akun</Col>
                 </Row>
                 <Row>
                     <Col className="hero-progkelas">Ubah Email</Col>
                 </Row>
                 <Row>
-                    <Col className="sub-pengaturan" style={{ marginTop: 20 }}>Email Baru</Col>
+                    <Col className="sub-pengaturan" >Email Baru</Col>
                 </Row>
                 <Row>
                     <div className="form-group">
@@ -27,15 +28,15 @@ function pengaturanakun() {
                     <Col className="huruf-kecil-pengaturan">*Email akan berubah ketika Anda sudah menekan link verifikasi yang dikirimkan ke email baru Anda</Col>
                 </Row>
                 <Row>
-                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13, marginTop: 10 }}>
-                        Konfirmasi
-    </Button>
+                <button className={"buttonMedium"} >
+                  Konfirmasi
+                </button>
                 </Row>
                 <Row>
                     <Col className="hero-progkelas" style={{ marginTop: 50 }}>Ubah Password</Col>
                 </Row>
                 <Row>
-                    <Col className="sub-pengaturan" style={{ marginTop: 20 }}>Password Baru</Col>
+                    <Col className="sub-pengaturan" >Password Baru</Col>
                 </Row>
                 <Row>
                     <div className="form-group">
@@ -47,7 +48,7 @@ function pengaturanakun() {
                     <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
                 </Row>
                 <Row>
-                    <Col className="sub-pengaturan" style={{ marginTop: 5 }}>Konfirmasi Password Baru</Col>
+                    <Col className="sub-pengaturan" >Konfirmasi Password Baru</Col>
                 </Row>
                 <Row>
                     <div className="form-group">
@@ -56,12 +57,9 @@ function pengaturanakun() {
                     </div>
                 </Row>
                 <Row>
-                    <Col className="huruf-kecil-pengaturan">*Gunakan minimal 8 karakter dengan kombinasi huruf dan angka.</Col>
-                </Row>
-                <Row>
-                    <Button variant="danger" size="m" style={{ borderRadius: 15, marginLeft: 13, marginTop: 10 }}>
-                        Simpan
-    </Button>
+                <button className={"buttonMedium"} >
+                  Simpan
+                </button>
 
                 </Row>
 
