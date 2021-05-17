@@ -11,7 +11,7 @@ function progresskelas() {
         <div>
             <Container>
                 <Row>
-                    <Col sm={8} className="tittle-progkelas">Progress Kelas</Col>
+                    <Col sm={8} className="tittle">Progress Kelas</Col>
                     <Col sm={8} className="hero-progkelas">Kelas Yang Sudah dipelajari</Col>
                     <Col sm={8} className="sub-progkelas">Blender: Design 3D Illustration</Col>
                     <Col sm={5}> <ProgressBar now={60} variant="danger" style={{ maxWidth: 300, marginTop: 10 }} /></Col>

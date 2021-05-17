@@ -10,7 +10,7 @@ function pengaturanakun() {
         <div>
             <Container>
                 <Row>
-                    <Col className="tittle-progkelas">Pengaturan Akun</Col>
+                    <Col className="tittle">Pengaturan Akun</Col>
                 </Row>
                 <Row>
                     <Col className="hero-progkelas">Ubah Email</Col>

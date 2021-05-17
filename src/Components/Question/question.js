@@ -3,6 +3,7 @@ import './question.css'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import EndUjian from '../KonfirmasiUjianEnd/konfirmasiUjian';
 
 function Question() {
 	return (
@@ -48,11 +49,9 @@ function Question() {
 			</Row>
 
 			<Row className ='controlBtn' >
-				<Col xs={8}><a href="/soal-quiz">
-					<button className={"startbutton"} onClick={''} >
-						Submit
-                                    </button>
-				</a></Col>
+				<Col xs={8}>
+				<EndUjian />
+				</Col>
 				<Col > <a className = 'prevQuest' href="/soal-quiz">
 					<button className={"navbutton"} onClick={''} >
 						Sebelumnya
