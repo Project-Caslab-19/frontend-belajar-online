@@ -13,65 +13,130 @@ function progresskelas() {
                 <Row>
                     <Col sm={8} className="tittle">Progress Kelas</Col>
                     <Col sm={8} className="hero-progkelas">Kelas Yang Sudah dipelajari</Col>
-                    <Col sm={8} className="sub-progkelas">Blender: Design 3D Illustration</Col>
-                    <Col sm={5}> <ProgressBar now={60} variant="danger" style={{ maxWidth: 300, marginTop: 10 }} /></Col>
-                    <Col>  <Button variant="danger" size="m" style={{ marginTop: 3 }}>
-                        Lanjutkan Belajar
-    </Button></Col>
                 </Row>
+                <Row>
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Blender: Design 3D Illustration</p>
+                        <style type="text/css">
+                            {`
+                              .bg-red {
+                               background-color: #FF5A5F;
+                            color: white;}
+                            `}
+                        </style>
+                        <ProgressBar now={50} label={'50%'} variant='red' />
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium"} >
+                            Lanjutkan Belajar
+                    </button>
+                    </Col>
+                </Row>
+
                 <Row>
 
-                    <Col sm={8} className="sub-progkelas">Flutter for Designer: Design to Code</Col>
-                    <Col sm={5}> <ProgressBar now={60} variant="danger" style={{ maxWidth: 300, marginTop: 10 }} /></Col>
-                    <Col>  <Button variant="danger" size="m" style={{ marginTop: 3 }}>
-                        Lanjutkan Belajar
-    </Button></Col>
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Flutter for Designer: Design to Code</p>
+                        <style type="text/css">
+                            {`
+                              .bg-red {
+                               background-color: #FF5A5F;
+                            color: white;}
+                            `}
+                        </style>
+                        <ProgressBar now={50} label={'50%'} variant='red' />
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium"} >
+                            Lanjutkan Belajar
+                    </button>
+                    </Col>
                 </Row>
+
                 <Row>
 
-                    <Col sm={8} className="sub-progkelas">Machine Learning</Col>
-                    <Col sm={5}> <ProgressBar now={60} variant="danger" style={{ maxWidth: 300, marginTop: 10 }} /></Col>
-                    <Col>  <Button variant="danger" size="m" style={{ marginTop: 3 }}>
-                        Lanjutkan Belajar
-    </Button></Col>
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Machine Learning</p>
+                        <style type="text/css">
+                            {`
+                              .bg-red {
+                               background-color: #FF5A5F;
+                            color: white;}
+                            `}
+                        </style>
+                        <ProgressBar now={50} label={'50%'} variant='red' />
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium"} >
+                            Lanjutkan Belajar
+                    </button>
+                    </Col>
                 </Row>
+
                 <Row>
 
-                    <Col sm={8} className="sub-progkelas">Belajar Membuat Game dengan Construct 2</Col>
-                    <Col sm={5}> <ProgressBar now={60} variant="danger" style={{ maxWidth: 300, marginTop: 10 }} /></Col>
-                    <Col>  <Button variant="danger" size="m" style={{ marginTop: 3 }}>
-                        Lanjutkan Belajar
-    </Button></Col>
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Belajar Membuat Game dengan Construct 2</p>
+                        <style type="text/css">
+                            {`
+                              .bg-red {
+                               background-color: #FF5A5F;
+                            color: white;}
+                            `}
+                        </style>
+                        <ProgressBar now={50} label={'50%'} variant='red' />
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium"} >
+                            Lanjutkan Belajar
+                    </button>
+                    </Col>
                 </Row>
+
+
+
+
                 <Row>
-                    <Col xs className="hero-progkelas">Kelas Yang Sudah Lulus</Col>
+                    <Col sm={8} className="hero-progkelas">Kelas Yang Sudah Lulus</Col>
                 </Row>
-                <Row xs={0} md={4} lg={6}>
-                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chatbot1</Col>
-                    <Col xs><Button variant="danger" size="m" size="m" style={{ marginTop: 10 }}>
-                        Review Materi
-    </Button></Col>
-                    <Col xs><Button variant="secondary" size="m" size="m" style={{ marginTop: 10 }}>
-                        Cetak Sertifikat
-    </Button></Col>
+                <Row >
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Machine Learning</p>
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium-Second"} >
+                            Review Materi
+                    </button>
+                        <button className={"buttonMedium"} >
+                            Cetak Sertifikat
+                    </button>
+                    </Col>
                 </Row>
-                <Row xs={0} md={4} lg={6}>
-                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chatbot2</Col>
-                    <Col xs><Button variant="danger" size="m" size="m" style={{ marginTop: 10 }}>
-                        Review Materi
-    </Button></Col>
-                    <Col xs><Button variant="secondary" size="m" style={{ marginTop: 10 }}>
-                        Cetak Sertifikat
-    </Button></Col>
+                <Row >
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Machine Learning</p>
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium-Second"} >
+                            Review Materi
+                    </button>
+                        <button className={"buttonMedium"} >
+                            Cetak Sertifikat
+                    </button>
+                    </Col>
                 </Row>
-                <Row xs={0} md={4} lg={6} >
-                    <Col xs size="m" style={{ marginTop: 10 }}>Membuat line chasatbot3 </Col>
-                    <Col xs><Button variant="danger" size="m" size="m" style={{ marginTop: 10 }}>
-                        Review Materi
-    </Button></Col>
-                    <Col xs><Button variant="secondary" size="m" size="m" style={{ marginTop: 10 }}>
-                        Cetak Sertifikat
-    </Button></Col>
+                <Row >
+                    <Col sm={4} className="sub-progkelas">
+                        <p >Machine Learning</p>
+                    </Col>
+                    <Col className="sub-progkelas">
+                        <button className={"buttonMedium-Second"} >
+                            Review Materi
+                    </button>
+                        <button className={"buttonMedium"} >
+                            Cetak Sertifikat
+                    </button>
+                    </Col>
                 </Row>
             </Container>
         </div>

@@ -1,12 +1,13 @@
 .sub-pengaturan{
     font-size: 16px;
     font-weight: bold;
+    margin-top: 20px ;
 }
 .huruf-kecil-pengaturan{
     font-size: 10px;
     font-weight: 500;
-    margin-top: -15px;
+    margin-top: -10px;
 }
-#inputpengatur{
+#inputpengatur{  
     margin-left: 13px;
 }
