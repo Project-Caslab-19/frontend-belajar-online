@@ -31,7 +31,7 @@ import UserPage_soal_quiz from './Pages/soal';
 import UserPage_progress_kelas from './Pages/progress-kelas';
 import UserPage_pengaturan_akun from './Pages/pengaturan-akun';
 import UserPage_edit_profile from './Pages/edit-profile';
-
+import UserPage_hasil_exam from './Pages/hasil-exam';
 
 
 class App extends Component {
@@ -47,6 +47,7 @@ class App extends Component {
       <Route path="/progress-kelas" component={UserPage_progress_kelas} />
       <Route path="/pengaturan-akun" component={UserPage_pengaturan_akun} />
       <Route path="/edit-profile" component={UserPage_edit_profile} />
+      <Route path="/hasil-exam" component={UserPage_hasil_exam} />
     </Router>
   }
 }
