@@ -15,9 +15,6 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Route,
-  // Switch,
-  // Link,
-  // Redirect
 } from "react-router-dom";
 
 //Pages
@@ -32,7 +29,8 @@ import UserPage_progress_kelas from './Pages/progress-kelas';
 import UserPage_pengaturan_akun from './Pages/pengaturan-akun';
 import UserPage_edit_profile from './Pages/edit-profile';
 import UserPage_hasil_exam from './Pages/hasil-exam';
-
+import AdminPage_detail_kelas from './Pages/detail-kelas-admin';
+import AdminPage_dashboard from './Pages/dashboard-admin';
 
 class App extends Component {
   render() {
@@ -48,6 +46,8 @@ class App extends Component {
       <Route path="/pengaturan-akun" component={UserPage_pengaturan_akun} />
       <Route path="/edit-profile" component={UserPage_edit_profile} />
       <Route path="/hasil-exam" component={UserPage_hasil_exam} />
+      <Route path="/detail-kelas-admin" component={AdminPage_detail_kelas} />
+      <Route path="/dashboard-admin" component={AdminPage_dashboard} />
     </Router>
   }
 }
