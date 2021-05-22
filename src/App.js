@@ -31,6 +31,9 @@ import UserPage_edit_profile from './Pages/edit-profile';
 import UserPage_hasil_exam from './Pages/hasil-exam';
 import AdminPage_detail_kelas from './Pages/detail-kelas-admin';
 import AdminPage_dashboard from './Pages/dashboard-admin';
+import AdminPage_DaftarMateri from './Pages/daftar-materi-admin';
+import AdminPage_TambahKelas from './Pages/tambah-kelas';
+import AdminPage_DaftarSiswa from './Pages/daftar-siswa'
 
 class App extends Component {
   render() {
@@ -48,6 +51,9 @@ class App extends Component {
       <Route path="/hasil-exam" component={UserPage_hasil_exam} />
       <Route path="/detail-kelas-admin" component={AdminPage_detail_kelas} />
       <Route path="/dashboard-admin" component={AdminPage_dashboard} />
+      <Route path="/daftar-materi-admin" component={AdminPage_DaftarMateri} />
+      <Route path="/tambah-admin" component={AdminPage_TambahKelas} />
+      <Route path="/siswa" component={AdminPage_DaftarSiswa} />
     </Router>
   }
 }

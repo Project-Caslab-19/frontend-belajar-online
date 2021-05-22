@@ -93,9 +93,6 @@ function progresskelas() {
                     </Col>
                 </Row>
 
-
-
-
                 <Row>
                     <Col sm={8} className="hero-progkelas">Kelas Yang Sudah Lulus</Col>
                 </Row>
