@@ -11,16 +11,16 @@ function KategoriKelas() {
     return (
 
         <Container>
-              <Row>
+<Row>
     <Col></Col>
     <Col className="tittle-kategori">CASLAB ACADEMY</Col>
     <Col></Col>
   </Row>
             <Row>
                 
-                <Card >
+                <Card style={{ width: '68rem' }}>
                     <Card.Body>
-                    <div style={{ width: 1000, height: 200 }}>
+                 
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Data Science</Card.Title>
@@ -38,14 +38,14 @@ function KategoriKelas() {
                                     </Col>
                            
                         </Row>
-                        </div>
+                 
                     </Card.Body>
                 </Card>
             </Row>
             <Row>
-                <Card>
+                <Card style={{ width: '68rem' }}>
                     <Card.Body>
-                    <div style={{ width: 1000, height: 200 }}>
+                    <div >
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Rekayasa Perangkat Lunak</Card.Title>
@@ -69,10 +69,10 @@ function KategoriKelas() {
                 </Card>
             </Row>
             <Row>
-                <Card>
+                <Card style={{ width: '68rem' }}>
 
                     <Card.Body>
-                    <div style={{ width: 1000, height: 200 }}>
+                    <div >
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img" /></div></Col>
                             <Col sm={8}><Card.Title>Game Cerdas</Card.Title>
@@ -88,10 +88,9 @@ function KategoriKelas() {
                 </Card>
             </Row>
             <Row>
-                <Card>
-
+                <Card style={{ width: '68rem' }}>
                     <Card.Body>
-                    <div style={{ width: 1000, height: 200 }}>
+                    <div >
                         <Row>
                             <Col sm={4}><div className='iemg'><img src={img} className="pcc-img"/></div></Col>
                             <Col sm={8}><Card.Title>Jaringan Komputer</Card.Title>
