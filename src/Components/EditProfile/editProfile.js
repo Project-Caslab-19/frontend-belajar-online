@@ -38,7 +38,6 @@ function EditProfile() {
                 <Row>
                     <div className="form-group">
                         <input className="form-control formMargin" placeholder="Masukkan Nama Lengkap" type="text" id="inputNama" />
-
                     </div>
                 </Row>
                 <Row>

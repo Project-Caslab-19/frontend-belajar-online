@@ -49,11 +49,11 @@ class App extends Component {
       <Route path="/pengaturan-akun" component={UserPage_pengaturan_akun} />
       <Route path="/edit-profile" component={UserPage_edit_profile} />
       <Route path="/hasil-exam" component={UserPage_hasil_exam} />
-      <Route path="/detail-kelas-admin" component={AdminPage_detail_kelas} />
-      <Route path="/dashboard-admin" component={AdminPage_dashboard} />
-      <Route path="/daftar-materi-admin" component={AdminPage_DaftarMateri} />
-      <Route path="/tambah-admin" component={AdminPage_TambahKelas} />
-      <Route path="/siswa" component={AdminPage_DaftarSiswa} />
+      <Route path="/admin/detail-kelas-admin" component={AdminPage_detail_kelas} />
+      <Route path="/admin" component={AdminPage_dashboard} />
+      <Route path="/admin/daftar-materi-admin" component={AdminPage_DaftarMateri} />
+      <Route path="/admin/tambah-admin" component={AdminPage_TambahKelas} />
+      <Route path="/admin/siswa" component={AdminPage_DaftarSiswa} />
     </Router>
   }
 }
