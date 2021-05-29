@@ -5,11 +5,10 @@ import './sidebar3.css';
 import Button from 'react-bootstrap/Button'
 
 
-
 const Side3 = props => {
     return (
         <>
-            <Nav className="col-md-12 d-none d-md-block bg-dark sidebar"
+            <Nav className="col-md-12 d-none d-md-block bg-dark sidebar h-100"
                 activeKey="#"
                 onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
 
