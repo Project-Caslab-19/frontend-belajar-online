@@ -3,60 +3,43 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import './daftarmateri.css';
+import Button from 'react-bootstrap/Button'
+
 
 function daftarMateri() {
     return (
-        <div>
+        <div className="h-100 ">
+            <Card>
+                <Card.Header as="h5">Trailer Kelas</Card.Header>
+                <Card.Body>
+                    <Card.Title>Special title treatment</Card.Title>
+                    <Button variant="primary btn-sm">Lihat</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Header as="h5">Modul 1</Card.Header>
+                <Card.Body>
+                    <Card.Title>Special title treatment</Card.Title>
+                    <Button variant="primary btn-sm">Lihat</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Header as="h5">Quiz 1</Card.Header>
+                <Card.Body>
+                    <Card.Title>Special title treatment</Card.Title>
+                    <Button variant="primary btn-sm">Lihat</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Header as="h5">Quiz 2</Card.Header>
+                <Card.Body>
+                    <Card.Title>Special title treatment</Card.Title>
+                    <Button variant="primary btn-sm">Lihat</Button>
+                </Card.Body>
+            </Card>
+
             <Row>
-                <Card style={{ width: '48rem' }} className="card-daftar">
-                    <Card.Body>
-                        <div >
-                            <Row>
-                                <Col sm={8}><Card.Title>Trailer Kelas</Card.Title>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Card.Body>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{ width: '48rem' }} className="card-daftar">
-                    <Card.Body>
-                        <div >
-                            <Row>
-                                <Col sm={8}><Card.Title>Modul 1</Card.Title>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Card.Body>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{ width: '48rem' }} className="card-daftar">
-                    <Card.Body>
-                        <div >
-                            <Row>
-                                <Col sm={8}><Card.Title>Quiz 1</Card.Title>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Card.Body>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{ width: '48rem' }} className="card-daftar">
-                    <Card.Body>
-                        <div >
-                            <Row>
-                                <Col sm={8}><Card.Title>Modul 2</Card.Title>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Card.Body>
-                </Card>
-            </Row>
-            <Row>
-                <Col sm={7}>
+                <Col sm={6} >
                 </Col>
                 <Col className="sub-progkelas">
                     <button className={"buttonMedium"} >
@@ -70,6 +53,7 @@ function daftarMateri() {
                     </button>
                 </Col>
             </Row>
+
 
         </div>
     )
