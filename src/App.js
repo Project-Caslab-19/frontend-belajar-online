@@ -35,6 +35,7 @@ import AdminPage_DaftarMateri from './Pages/daftar-materi-admin';
 import AdminPage_TambahKelas from './Pages/tambah-kelas';
 import AdminPage_DaftarSiswa from './Pages/daftar-siswa'
 import AdminPage_EditKelas from './Pages/edit-kelas'
+import AdminPage_DaftarKelas from './Pages/daftar-kelas'
 
 class App extends Component {
   render() {
@@ -56,6 +57,7 @@ class App extends Component {
       <Route path="/daftar-materi-admin" component={AdminPage_DaftarMateri} />
       <Route path="/tambah-admin" component={AdminPage_TambahKelas} />
       <Route path="/siswa" component={AdminPage_DaftarSiswa} />
+      <Route path="/daftar-kelas" component={AdminPage_DaftarKelas} />
     </Router>
   }
 }
