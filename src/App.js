@@ -34,6 +34,8 @@ import AdminPage_dashboard from './Pages/dashboard-admin';
 import AdminPage_DaftarMateri from './Pages/daftar-materi-admin';
 import AdminPage_TambahKelas from './Pages/tambah-kelas';
 import AdminPage_DaftarSiswa from './Pages/daftar-siswa'
+import AdminPage_editmateri from './Pages/edit-materi-kelas'
+import AdminPage_editquiz from './Pages/edit-quiz';
 
 class App extends Component {
   render() {
@@ -54,6 +56,8 @@ class App extends Component {
       <Route path="/daftar-materi-admin" component={AdminPage_DaftarMateri} />
       <Route path="/tambah-admin" component={AdminPage_TambahKelas} />
       <Route path="/siswa" component={AdminPage_DaftarSiswa} />
+      <Route path="/edit-materi" component={AdminPage_editmateri} />
+      <Route path="/edit-quiz" component={AdminPage_editquiz} />
     </Router>
   }
 }

@@ -8,32 +8,28 @@ import Button from 'react-bootstrap/Button'
 
 function daftarMateri() {
     return (
-        <div className="h-100 ">
-            <Card>
+        <div >
+            <Card className="w-50">
                 <Card.Header as="h5">Trailer Kelas</Card.Header>
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
                     <Button variant="primary btn-sm">Lihat</Button>
                 </Card.Body>
             </Card>
-            <Card>
+            <Card className="w-50">
                 <Card.Header as="h5">Modul 1</Card.Header>
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
                     <Button variant="primary btn-sm">Lihat</Button>
                 </Card.Body>
             </Card>
-            <Card>
+            <Card className="w-50">
                 <Card.Header as="h5">Quiz 1</Card.Header>
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
                     <Button variant="primary btn-sm">Lihat</Button>
                 </Card.Body>
             </Card>
-            <Card>
+            <Card className="w-50">
                 <Card.Header as="h5">Quiz 2</Card.Header>
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
                     <Button variant="primary btn-sm">Lihat</Button>
                 </Card.Body>
             </Card>
