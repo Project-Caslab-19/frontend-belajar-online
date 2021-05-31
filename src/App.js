@@ -36,6 +36,8 @@ import AdminPage_TambahKelas from './Pages/tambah-kelas';
 import AdminPage_DaftarSiswa from './Pages/daftar-siswa'
 import AdminPage_editmateri from './Pages/edit-materi-kelas'
 import AdminPage_editquiz from './Pages/edit-quiz';
+import AdminPage_EditKelas from './Pages/edit-kelas';
+import AdminPage_DaftarKelas from './Pages/daftar-kelas';
 
 class App extends Component {
   render() {
@@ -52,12 +54,14 @@ class App extends Component {
       <Route path="/edit-profile" component={UserPage_edit_profile} />
       <Route path="/hasil-exam" component={UserPage_hasil_exam} />
       <Route path="/detail-kelas-admin" component={AdminPage_detail_kelas} />
+      <Route path="/edit-kelas-admin" component={AdminPage_EditKelas} />
       <Route path="/dashboard-admin" component={AdminPage_dashboard} />
       <Route path="/daftar-materi-admin" component={AdminPage_DaftarMateri} />
       <Route path="/tambah-admin" component={AdminPage_TambahKelas} />
       <Route path="/siswa" component={AdminPage_DaftarSiswa} />
       <Route path="/edit-materi" component={AdminPage_editmateri} />
       <Route path="/edit-quiz" component={AdminPage_editquiz} />
+      <Route path="/daftar-kelas" component={AdminPage_DaftarKelas} />
     </Router>
   }
 }
