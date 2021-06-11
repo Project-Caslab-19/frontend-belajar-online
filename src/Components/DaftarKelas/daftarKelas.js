@@ -18,24 +18,30 @@ function Daftarkelas() {
                 </Row>
                 <Row style={{ marginTop: 20 }}>
 
-                    <button className={"buttonMedium"} >
-                        Tambah Kelas
-                </button>
+                    <a href="/admin/tambah">
+                        <button className={"buttonMedium"} >
+                            Tambah Kelas
+                        </button>
+                    </a>
                 </Row>
                 <Row style={{ marginTop: 20 }} className="justify-content-center">
                     <Col sm>
                         <Card >
-                            <Card.Header className="bgCardDashoard" style={{ fontWeight: 'bold', color: "white" }}>Membuat Database</Card.Header>
+                            <a href="/admin/edit-kelas">
+                                <Card.Header className="bgCardDashoard" style={{ fontWeight: 'bold', color: "white" }}>Membuat Database</Card.Header>
+                            </a>
+
                             <Card.Body>
                                 <Card.Title>
                                     <Row >
                                         <Col>
                                             <Row >
+
                                                 <Col xs lg="2">
                                                     <FontAwesomeIcon icon={faUserAlt} />
                                                 </Col>
                                                 <Col >
-                                                    <p>67</p>
+                                                        <p>67</p>
                                                 </Col>
                                             </Row>
                                         </Col>

@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import { withRouter } from "react-router";
 import Sidebar3 from '../Components/sidebar3/sidebar3';
 import DetailKelasAdmin from '../Components/DetailKelasAdmin/detailkelasadmin';
-import Navbar3 from '../Components/Navbar3/navbar3';
+import Navbar from '../Components/Navbar2/navbar2';
 
 
 
@@ -13,7 +13,7 @@ const AdminPage_detail_kelas = () => {
     return (
         <>
             <div>
-                <Navbar3 />
+                <Navbar />
                 <Container fluid>
                     <Row>
                         <Col xs={2} id="sidebar-wrapper">

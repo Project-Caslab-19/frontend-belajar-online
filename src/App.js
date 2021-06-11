@@ -55,15 +55,13 @@ class App extends Component {
       <Route path="/pengaturan-akun" component={UserPage_pengaturan_akun} />
       <Route path="/edit-profile" component={UserPage_edit_profile} />
       <Route path="/hasil-exam" component={UserPage_hasil_exam} />
-      <Route path="/detail-kelas-admin" component={AdminPage_detail_kelas} />
-      <Route path="/edit-kelas-admin" component={AdminPage_EditKelas} />
-      <Route path="/dashboard-admin" component={AdminPage_dashboard} />
-      <Route path="/daftar-materi-admin" component={AdminPage_DaftarMateri} />
-      <Route path="/tambah-admin" component={AdminPage_TambahKelas} />
-      <Route path="/siswa" component={AdminPage_DaftarSiswa} />
-      <Route path="/edit-materi" component={AdminPage_editmateri} />
-      <Route path="/edit-quiz" component={AdminPage_editquiz} />
-      <Route path="/daftar-kelas" component={AdminPage_DaftarKelas} />
+      <Route path="/admin/detail-kelas" component={AdminPage_detail_kelas} />
+      <Route path="/admin/edit-kelas" component={AdminPage_EditKelas} />
+      <Route path="/admin/dashboard" component={AdminPage_dashboard} />
+      <Route path="/admin/daftar-materi" component={AdminPage_DaftarMateri} />
+      <Route path="/admin/tambah" component={AdminPage_TambahKelas} />
+      <Route path="/admin/siswa" component={AdminPage_DaftarSiswa} />
+      <Route path="/admin/daftar-kelas" component={AdminPage_DaftarKelas} />
       <Route path="/tambah-materi-kelas" component={AdminPage_TambahMateriKelas} />
       <Route path="/tambah-quiz-admin" component={AdminPage_TambahQuiz} />
     </Router>

@@ -34,13 +34,21 @@ const Side = props => {
                         <h className="font-sidebar">Trailer Kelas</h>
                     </Button >
                 </a>
-
+                <div className="sidebar-sticky">Introduction</div>
+                <a href="/materi-video">   <Button variant="secondary" size="m" className="buttonsidebar">
+                    <h className="font-sidebar">Bagian 1</h>
+                    <FontAwesomeIcon icon={faCheck} />
+                </Button></a>
+                <a href="/materi-video"> <Button variant="secondary" size="m" className="buttonsidebar">
+                    <h className="font-sidebar">Bagian 2</h>
+                    <FontAwesomeIcon icon={faCheck} />
+                </Button></a>
 
                 <div className="sidebar-sticky">Modul 1 : Basic</div>
-                <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
+                <a href="/materi-video"><Button variant="secondary" size="m" className="buttonsidebar">
                     <h className="font-sidebar">Bagian 1</h>
                 </Button></a>
-                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar">
+                <a href="/materi-video"> <Button variant="secondary" size="m" className="buttonsidebar">
                     <h className="font-sidebar">Bagian 2</h>
                 </Button></a>
                 <a href="/soal-quiz"> <Button variant="secondary" size="m" className="buttonsidebar">
@@ -48,7 +56,7 @@ const Side = props => {
                 </Button></a>
 
                 <div className="sidebar-sticky">Midterm Exam</div>
-                <a href="#"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
+                <a href="/soal-quiz"> <Button variant="secondary" size="m" className="buttonsidebar bg-white">
                     <h className="font-sidebar-term">Midterm Exam</h>
                 </Button></a>
 

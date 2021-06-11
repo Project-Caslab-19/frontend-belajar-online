@@ -29,9 +29,11 @@ function tambahkelas() {
                     </Form.Group>
                 </Form>
                 <Row>
-                    <button className={"buttonMedium"} >
-                        Simpan
-                </button>
+                    <a href="/admin/daftar-kelas">
+                        <button className={"buttonMedium"} >
+                            Simpan
+                        </button>
+                    </a>
                 </Row>
             </Container>
 
