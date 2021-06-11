@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import Sidebar3 from '../Components/sidebar3/sidebar3';
 import EditMateri from '../Components/EditMateriKelasAdmin/editmaterikelas'
-import Navbar3 from '../Components/Navbar3/navbar3';
+import Navbar from '../Components/Navbar2/navbar2';
 
 const AdminPage_editmateri = () => {
 
     return (
         <>
             <div>
-                <Navbar3 />
+                <Navbar />
                 <Container fluid>
                     <Row>
                         <Col xs={2} id="sidebar-wrapper">
