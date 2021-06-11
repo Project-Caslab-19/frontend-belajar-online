@@ -4,34 +4,32 @@ import Col from 'react-bootstrap/Col';
 import { Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
 
-function tambahkelas() {
+function tambahmateri_kelas() {
     return (
         <div>
             <Container>
                 <Row>
-                    <Col sm={8} style={{ fontSize: 24, fontWeight: 500 }}>Tambah Kelas</Col>
+                    <Col sm={8} style={{ fontSize: 24, fontWeight: 500 }}>Tambah Materi Kelas</Col>
                 </Row>
                 <Form style={{ marginTop: 50 }}>
-                    <Form.Group controlId="exampleForm.ControlSelect1">
-                        <Form.Group controlId="exampleForm.ControlInput1">
-                            <Form.Label>Nama Modul</Form.Label>
-                            <Form.Control type="email" />
-                        </Form.Group>
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Label>Judul Modul</Form.Label>
+                        <Form.Control type="email" />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>Nama Kelas</Form.Label>
-                        <Form.Control type="email" placeholder="Diisi nama kelas" />
+                        <Form.Label>Judul Materi</Form.Label>
+                        <Form.Control type="email" />
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Deskripsi</Form.Label>
+                        <Form.Label>Link Video</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
                 </Form>
                 <Row>
                     <button className={"buttonMedium"} >
                         Simpan
-                </button>
+            </button>
                 </Row>
             </Container>
 
@@ -39,4 +37,4 @@ function tambahkelas() {
     )
 }
 
-export default tambahkelas
+export default tambahmateri_kelas

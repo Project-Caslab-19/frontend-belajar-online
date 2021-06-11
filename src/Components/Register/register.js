@@ -28,6 +28,10 @@ function RegisterModal(props) {
               <div >
                 <form >
                   <div className="form-group">
+                    <label for="inputUserName">Full Name</label>
+                    <input className="form-control" placeholder="Masukkan Fullname" type="text" id="inputFullname" />
+                  </div>
+                  <div className="form-group">
                     <label for="inputUserName">Username</label>
                     <input className="form-control" placeholder="Masukkan Username" type="text" id="inputUserName" />
                   </div>
@@ -65,8 +69,8 @@ function Register() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <button className= {"button"} onClick={() => setModalShow(true)} >
-          Daftar
+      <button className={"button"} onClick={() => setModalShow(true)} >
+        Daftar
           </button>
       <RegisterModal
         show={modalShow}

@@ -12,16 +12,16 @@ const Side3 = props => {
                 activeKey="#"
                 onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
 
-                <a href="progress-kelas">
+                <a href="dashboard-admin">
                     <Button variant="secondary" size="m" className="buttonsidebar">
                         <h className="font-sidebar">Dashboard</h>
                     </Button >
                 </a>
-                <a href="#">   <Button variant="secondary" size="m" className="buttonsidebar">
+                <a href="/daftar-kelas">   <Button variant="secondary" size="m" className="buttonsidebar">
                     <h className="font-sidebar">Daftar Kelas</h>
                 </Button></a>
 
-                <a href="#"><Button variant="secondary" size="m" className="buttonsidebar">
+                <a href="/edit-kelas-admin"><Button variant="secondary" size="m" className="buttonsidebar">
                     <h className="font-sidebar">Edit Kelas</h>
                 </Button></a>
 

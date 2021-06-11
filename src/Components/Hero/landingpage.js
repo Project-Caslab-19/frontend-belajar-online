@@ -15,13 +15,13 @@ function Hero() {
                         <Col sm>
                             <Jumbotron fluid='false'>
                                 <h1>BANGUN KARIRMU SEBAGAI MAHASISWA IT CERDAS</h1>
-                                <p className ="sec1">
+                                <p className="sec1">
                                     Mulai belajar terarah dengan learning path
                                 </p>
                                 <p>
                                     <a href="/kategori">
-                                    <button className={"buttonSelengkapnya"} onClick={''} >
-                                        Mulai Sekarang 
+                                        <button className={"buttonSelengkapnya"} onClick={''} >
+                                            Mulai Sekarang
                                     </button>
                                     </a>
                                 </p>
