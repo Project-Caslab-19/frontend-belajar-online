@@ -35,6 +35,10 @@ function RegisterModal(props) {
                     <input name ="full_name" className="form-control" placeholder="Masukkan Nama Lengkap" type="text" id="inputUserName" />
                   </div>
                   <div className="form-group">
+                    <label for="inputUserName">Full Name</label>
+                    <input className="form-control" placeholder="Masukkan Fullname" type="text" id="inputFullname" />
+                  </div>
+                  <div className="form-group">
                     <label for="inputUserName">Username</label>
                     <input name ="username" className="form-control" placeholder="Masukkan Username" type="text" id="inputUserName" />
                   </div>

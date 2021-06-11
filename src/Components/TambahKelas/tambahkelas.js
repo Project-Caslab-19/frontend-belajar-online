@@ -13,17 +13,14 @@ function tambahkelas() {
                 </Row>
                 <Form style={{ marginTop: 50 }}>
                     <Form.Group controlId="exampleForm.ControlSelect1">
-                        <Form.Label>Pilih Kelas</Form.Label>
-                        <Form.Control as="select">
-                            <option>RPL</option>
-                            <option>Data Science</option>
-                            <option>Keamanan Jaringan</option>
-                            <option>Game Cerdas</option>
-                        </Form.Control>
+                        <Form.Group controlId="exampleForm.ControlInput1">
+                            <Form.Label>Nama Modul</Form.Label>
+                            <Form.Control type="email" />
+                        </Form.Group>
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Nama Kelas</Form.Label>
-                        <Form.Control type="email" placeholder="kelas terhebat" />
+                        <Form.Control type="email" placeholder="Diisi nama kelas" />
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
