@@ -38,6 +38,8 @@ import AdminPage_editmateri from './Pages/edit-materi-kelas'
 import AdminPage_editquiz from './Pages/edit-quiz';
 import AdminPage_EditKelas from './Pages/edit-kelas';
 import AdminPage_DaftarKelas from './Pages/daftar-kelas';
+import AdminPage_TambahMateriKelas from './Pages/tambah-mater-kelas';
+import AdminPage_TambahQuiz from './Pages/tambah-quiz-admin';
 
 class App extends Component {
   render() {
@@ -62,6 +64,8 @@ class App extends Component {
       <Route path="/edit-materi" component={AdminPage_editmateri} />
       <Route path="/edit-quiz" component={AdminPage_editquiz} />
       <Route path="/daftar-kelas" component={AdminPage_DaftarKelas} />
+      <Route path="/tambah-materi-kelas" component={AdminPage_TambahMateriKelas} />
+      <Route path="/tambah-quiz-admin" component={AdminPage_TambahQuiz} />
     </Router>
   }
 }
