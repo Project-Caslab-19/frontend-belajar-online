@@ -23,7 +23,7 @@ function NavigationBar() {
                     <DropdownButton id="dropdown-basic-button" >
                         <Dropdown.Item href="#"><FontAwesomeIcon icon={faUserCircle} /> Akun Saya</Dropdown.Item>
                         <Dropdown.Item href="#"><FontAwesomeIcon icon={faCog} /> Pengaturan</Dropdown.Item>
-                        <Dropdown.Item href="/kategori"> <FontAwesomeIcon icon={faSignOutAlt} /> Logout</Dropdown.Item>
+                        <Dropdown.Item href="/"> <FontAwesomeIcon icon={faSignOutAlt} /> Logout</Dropdown.Item>
                     </DropdownButton>
                 </Nav.Link>
                 <Nav.Link>
